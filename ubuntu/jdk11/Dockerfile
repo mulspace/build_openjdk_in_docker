@@ -1,4 +1,4 @@
-FROM openjdk:11.0
+FROM openjdk:11.0-slim
 
 RUN  apt-get update && apt-get install -y autoconf \
      ccache make gcc g++ ca-certificates ca-certificates-java \
